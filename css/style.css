@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Monomaniac+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+
+
+
+
+body {
+    background-image: url("stars.jpeg");
+    background-color: white;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: "Chivo Mono", monospace;
+    text-align: center; 
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+
+header img:hover {
+    background-color: gray;
+    transform: scale(1.05);
+}
+
+main img:hover {
+    background-color: darkgrey;
+    transform: scale(1.05);
+}
+
+main video:hover {
+    background-color: darkgrey;
+    transform: scale(1.05);
+}
+
+nav {
+    background-color: #27459f;
+    position: fixed;
+    height: 100vh;
+    max-width: 25%;
+    top: 0;
+    left: 0;
+    padding: 5%;
+    background: linear-gradient(to right,#000,#0575e6);
+}
+
+
+main {
+    background-color: #052352;
+    max-width: 65%;
+    margin-left: 30%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header {
+    text-decoration: wavy;
+    font-size: 65px;
+    font-family: "Jacquarda Bastarda 9", serif;
+    text-shadow: #000;
+    font-style: italic;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-left: 30%;
+}
+
+img {
+    align-items: center;
+    border: 10px solid #555;
+    border-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
