@@ -89,3 +89,8 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    color: darkblue;
+    opacity: 0.75;
+}
+
